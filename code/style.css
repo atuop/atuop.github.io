@@ -26,19 +26,6 @@ h1{
     padding-left: 3em;
     animation: text 1s ease-in-out infinite forwards;
 }
-button{
-    width:10em;
-    height:5em;
-    border-radius: 2.5em;
-    background-color:green;
-    border-color: yellow;
-    font-weight: bolder;
-    font-size: 1.5em;
-    font-family: Minecraft;
-}
-#download{
-    color:yellow;
-}
 a:link{
     color:rgb(60, 0, 200);
 }
@@ -62,3 +49,4 @@ a:visited{
         font-size: 1.2em;
     }
 }
+
