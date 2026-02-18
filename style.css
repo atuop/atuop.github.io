@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Comic;
+    src: url("assets/pixel-comic-sans-undertale-sans-font.ttf");
+}
+@font-face {
+    font-family: Minecraft;
+    src: url("assets/MinecraftRegular-Bmg3.ttf");
+}
+body{
+    background-color: rgba(87, 87, 197, 0.845);
+}
+#title{
+    color: white;
+    font-family: Comic;
+    font-size: 5em;
+}
+h1{
+    color: white;
+    font-family: Comic;
+}
+#splash{
+    font-family: Minecraft;
+    color:yellow;
+    position: absolute;
+    padding-top: 0;
+    padding-left: 3em;
+    animation: text 1s ease-in-out infinite forwards;
+}
+button{
+    width:10em;
+    height:5em;
+    border-radius: 2.5em;
+    background-color:green;
+    border-color: yellow;
+    font-weight: bolder;
+    font-size: 1.5em;
+    font-family: Minecraft;
+}
+#download{
+    color:yellow;
+}
+a:link{
+    color:rgb(60, 0, 200);
+}
+a:visited{
+    color:rgb(66, 19, 177);
+}
+#tori{
+    height:10em;
+}
+@keyframes text{
+    0%{
+        rotate:25deg;
+        font-size: 1.2em;
+    }
+    50%{
+        rotate:25deg;
+        font-size: 1.5em;
+    }
+    100%{
+        rotate:25deg;
+        font-size: 1.2em;
+    }
+}
