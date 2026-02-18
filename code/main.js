@@ -27,7 +27,4 @@ const link=document.getElementById("rick2");
 link.addEventListener("click", function(){
     document.getElementById("rick").textContent="Haha got rick rolled in 2026 lol";
 })
-var sound=document.getElementById("kids_cheering");
-function PlayCheer(){
-    sound.play();
-}
+
