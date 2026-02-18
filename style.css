@@ -1,10 +1,10 @@
 @font-face {
     font-family: Comic;
-    src: url("assets/pixel-comic-sans-undertale-sans-font.ttf");
+    src: url("code/assets/pixel-comic-sans-undertale-sans-font.ttf");
 }
 @font-face {
     font-family: Minecraft;
-    src: url("assets/MinecraftRegular-Bmg3.ttf");
+    src: url("code/assets/MinecraftRegular-Bmg3.ttf");
 }
 body{
     background-color: rgba(87, 87, 197, 0.845);
@@ -49,4 +49,5 @@ a:visited{
         font-size: 1.2em;
     }
 }
+
 
