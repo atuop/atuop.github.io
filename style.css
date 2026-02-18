@@ -14,6 +14,9 @@ body{
     font-family: Comic;
     font-size: 5em;
 }
+#bg_mus{
+    margin-left: 70%;
+}
 h1{
     color: white;
     font-family: Comic;
@@ -49,5 +52,6 @@ a:visited{
         font-size: 1.2em;
     }
 }
+
 
 
